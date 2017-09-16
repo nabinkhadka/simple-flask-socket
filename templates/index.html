@@ -8,6 +8,8 @@
         $(document).ready(function() {
             namespace = '/test';
             var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+            // This will be called by server.
+            // Anonymous function will be executed and span with id "view" will be updated
             socket.on('my_response', function(msg) {
                 $('span#view').text(msg.count);
             });
@@ -17,7 +19,9 @@
 <body>
     <h1>Flask-SocketIO Simple Example</h1>
     The following value is updated using sockets at real-time.
+
     <p>Counter at server: <span id="view"></span></p>
+
     <a href="http://nabinkhadka.com.np" target="_blank"><h6>By Nabin:</h6></a>
 </body>
 </html>
