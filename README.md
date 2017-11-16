@@ -1,6 +1,6 @@
 # Flask Sockets
 
-Getting started with flask sockets can be very hectic especially with very clumsy demos available in the internet. I struggled very much to find a very basic working version of it. I have posted here a simple example to let you understand the very basics of socket in flask application. I have added necessary comments to make thing clear here.
+Getting started with flask sockets can be very hectic especially with very clumsy demos available in the internet. I struggled very much to find a very basic working version of it. I have posted here a simple example to let you understand the very basics of socket in flask application. I have added necessary comments to make things clearer here.
 
   - Uses flask_socketio for serverside and socket.io.min.js for client side
 
