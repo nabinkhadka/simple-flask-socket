@@ -6,7 +6,7 @@ Getting started with flask sockets can be very hectic especially with very clums
 
 ### How to run
 
-I really love to create virtual environment for each and every projects and supply requirements.txt file for them to keep my system fresh and clean.
+I love to create virtual environment for each and every projects and supply requirements.txt file for them to keep my system fresh and clean.
 
 ```sh
 # Create a virtual environment for this app
